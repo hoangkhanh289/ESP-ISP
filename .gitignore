@@ -1,0 +1,9 @@
+.validation/
+dist/
+.pio/
+__pycache__/
+.esp-isp-staged
+*.o
+*.elf
+*.map
+ci/platformio.local.ini

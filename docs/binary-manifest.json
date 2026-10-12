@@ -1,0 +1,320 @@
+{
+  "profiles": [
+    {
+      "target": "c3",
+      "mcu": "esp32c3",
+      "fqbn": "esp32:esp32:esp32c3",
+      "entry": "esp_isp_v1",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "riscv32-esp-elf-g++ (crosstool-NG esp-14.2.0_20260121) 14.2.0",
+      "global_defined_symbols": [
+        "esp_isp_v1"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 771064,
+      "seconds": 45.7,
+      "hardware_tested": false
+    },
+    {
+      "target": "c5",
+      "mcu": "esp32c5",
+      "fqbn": "esp32:esp32:esp32c5",
+      "entry": "esp_isp_v1",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "riscv32-esp-elf-g++ (crosstool-NG esp-14.2.0_20260121) 14.2.0",
+      "global_defined_symbols": [
+        "esp_isp_v1"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 771248,
+      "seconds": 38.5,
+      "hardware_tested": false
+    },
+    {
+      "target": "c6",
+      "mcu": "esp32c6",
+      "fqbn": "esp32:esp32:esp32c6",
+      "entry": "esp_isp_v1",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "riscv32-esp-elf-g++ (crosstool-NG esp-14.2.0_20260121) 14.2.0",
+      "global_defined_symbols": [
+        "esp_isp_v1"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 771244,
+      "seconds": 36.0,
+      "hardware_tested": false
+    },
+    {
+      "target": "core2",
+      "mcu": "esp32s3",
+      "fqbn": "esp32:esp32:esp32s3",
+      "entry": "esp_isp_v1",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "xtensa-esp32s3-elf-g++ (crosstool-NG esp-2021r2-patch5) 8.4.0",
+      "global_defined_symbols": [
+        "esp_isp_v1"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 869620,
+      "seconds": 35.8,
+      "hardware_tested": false
+    },
+    {
+      "target": "esp32",
+      "mcu": "esp32",
+      "fqbn": "esp32:esp32:esp32",
+      "entry": "esp_isp_v1",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "xtensa-esp-elf-g++.exe (crosstool-NG esp-14.2.0_20260121) 14.2.0",
+      "global_defined_symbols": [
+        "esp_isp_v1"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 868372,
+      "seconds": 58.7,
+      "hardware_tested": false
+    },
+    {
+      "target": "p4",
+      "mcu": "esp32p4",
+      "fqbn": "esp32:esp32:esp32p4",
+      "entry": "esp_isp_v1",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "riscv32-esp-elf-g++ (crosstool-NG esp-14.2.0_20260121) 14.2.0",
+      "global_defined_symbols": [
+        "esp_isp_v1"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 771224,
+      "seconds": 116.1,
+      "hardware_tested": false
+    },
+    {
+      "target": "pico",
+      "mcu": "cortex-m0plus",
+      "fqbn": "rp2040:rp2040:rpipico",
+      "entry": "esp_isp_v1_rp2040",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "arm-none-eabi-g++ (GCC) 16.1.0",
+      "global_defined_symbols": [
+        "esp_isp_v1_rp2040"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 671760,
+      "seconds": 29.1,
+      "hardware_tested": false
+    },
+    {
+      "target": "s2",
+      "mcu": "esp32s2",
+      "fqbn": "esp32:esp32:esp32s2",
+      "entry": "esp_isp_v1",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "xtensa-esp-elf-g++.exe (crosstool-NG esp-14.2.0_20260121) 14.2.0",
+      "global_defined_symbols": [
+        "esp_isp_v1"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 853704,
+      "seconds": 66.7,
+      "hardware_tested": false
+    },
+    {
+      "target": "s3",
+      "mcu": "esp32s3",
+      "fqbn": "esp32:esp32:esp32s3",
+      "entry": "esp_isp_v1",
+      "fpu": null,
+      "float_abi": null,
+      "toolchain": "xtensa-esp-elf-g++.exe (crosstool-NG esp-14.2.0_20260121) 14.2.0",
+      "global_defined_symbols": [
+        "esp_isp_v1"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 853796,
+      "seconds": 62.3,
+      "hardware_tested": false
+    },
+    {
+      "target": "stm32f4",
+      "mcu": "cortex-m4",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F446RE",
+      "entry": "esp_isp_v1_f4",
+      "fpu": "fpv4-sp-d16",
+      "float_abi": "hard",
+      "toolchain": "arm-none-eabi-g++ (xPack GNU Arm Embedded GCC x86_64) 14.2.1 20241119",
+      "global_defined_symbols": [
+        "esp_isp_v1_f4"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 684120,
+      "seconds": 27.0,
+      "hardware_tested": false
+    },
+    {
+      "target": "stm32f7",
+      "mcu": "cortex-m7",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_144:pnum=NUCLEO_F767ZI",
+      "entry": "esp_isp_v1_f7",
+      "fpu": "fpv5-sp-d16",
+      "float_abi": "hard",
+      "toolchain": "arm-none-eabi-g++ (xPack GNU Arm Embedded GCC x86_64) 14.2.1 20241119",
+      "global_defined_symbols": [
+        "esp_isp_v1_f7"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 684116,
+      "seconds": 24.3,
+      "hardware_tested": false
+    },
+    {
+      "target": "stm32g4",
+      "mcu": "cortex-m4",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_G474RE",
+      "entry": "esp_isp_v1_g4",
+      "fpu": "fpv4-sp-d16",
+      "float_abi": "hard",
+      "toolchain": "arm-none-eabi-g++ (xPack GNU Arm Embedded GCC x86_64) 14.2.1 20241119",
+      "global_defined_symbols": [
+        "esp_isp_v1_g4"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 684132,
+      "seconds": 23.4,
+      "hardware_tested": false
+    },
+    {
+      "target": "stm32h7",
+      "mcu": "cortex-m7",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_144:pnum=NUCLEO_H743ZI",
+      "entry": "esp_isp_v1_h7",
+      "fpu": "fpv5-sp-d16",
+      "float_abi": "hard",
+      "toolchain": "arm-none-eabi-g++ (xPack GNU Arm Embedded GCC x86_64) 14.2.1 20241119",
+      "global_defined_symbols": [
+        "esp_isp_v1_h7"
+      ],
+      "debug_sections": false,
+      "lto_sections": false,
+      "sensitive_string_findings": [],
+      "member_bytes": 684116,
+      "seconds": 28.4,
+      "hardware_tested": false
+    }
+  ],
+  "archives": [
+    {
+      "path": "extras/arduino-esp32-2.0.17/esp32s3/libesp_isp.a",
+      "bytes": 869768,
+      "sha256": "588ede9c35f8c260643347d8b16c976e238bdd495912e406226a56054ced5e93"
+    },
+    {
+      "path": "src/cortex-m0plus/libesp_isp.a",
+      "bytes": 671914,
+      "sha256": "372122c278ffbfb356d36f23247677460267d90a0d2bcc742e88b168c9be95a6"
+    },
+    {
+      "path": "src/cortex-m4/fpv4-sp-d16-hard/libesp_isp.a",
+      "bytes": 1368480,
+      "sha256": "339a6d83aae14bfc0a87e1c6d4114fed8aec35af5d736542f0d1f79191600e9c"
+    },
+    {
+      "path": "src/cortex-m4/libesp_isp.a",
+      "bytes": 1368480,
+      "sha256": "339a6d83aae14bfc0a87e1c6d4114fed8aec35af5d736542f0d1f79191600e9c"
+    },
+    {
+      "path": "src/cortex-m7/fpv5-sp-d16-hard/libesp_isp.a",
+      "bytes": 1368460,
+      "sha256": "4efad8696324656f3fb5d67bf7c0c568f05d7c5cca719eed111704a1716bf54d"
+    },
+    {
+      "path": "src/cortex-m7/libesp_isp.a",
+      "bytes": 1368460,
+      "sha256": "4efad8696324656f3fb5d67bf7c0c568f05d7c5cca719eed111704a1716bf54d"
+    },
+    {
+      "path": "src/esp32/libesp_isp.a",
+      "bytes": 868520,
+      "sha256": "82f3eea69ac21b61317d87fe5cbb6dc0b59b0f20b0ca5a79b13650bfcdce1975"
+    },
+    {
+      "path": "src/esp32c3/libesp_isp.a",
+      "bytes": 771212,
+      "sha256": "532284728888902181fb4f4dc3ff3950fde78163e1ddd64512e6ed839d342d4c"
+    },
+    {
+      "path": "src/esp32c5/libesp_isp.a",
+      "bytes": 771396,
+      "sha256": "4d24f6a82d7f6d289f36cfbf1189f25ef2d0ddedd32beec10cc8edac1c6008b2"
+    },
+    {
+      "path": "src/esp32c6/libesp_isp.a",
+      "bytes": 771392,
+      "sha256": "bee89d0f8e20b07b5ddb463594b0f53b759ee818bb4d5bc5b293f45c8e3fe4b0"
+    },
+    {
+      "path": "src/esp32p4/libesp_isp.a",
+      "bytes": 771372,
+      "sha256": "3c1743f64b1a52df57646c5a1f66f02e3fe0702848663458bb75da28114a574e"
+    },
+    {
+      "path": "src/esp32s2/libesp_isp.a",
+      "bytes": 853852,
+      "sha256": "f49672111d6a19679cab298d29d8abe8cb757bb0532c06ac8d0e50088e2e9a0b"
+    },
+    {
+      "path": "src/esp32s3/libesp_isp.a",
+      "bytes": 853944,
+      "sha256": "e05df5ec173f4abf656487c1bbfe4c7360b7a1b3dda6c01570bb2e13f1f9df29"
+    }
+  ],
+  "single_entry_per_profile": true,
+  "reverse_engineering_prevented": false,
+  "unavoidable_metadata": [
+    "C-ABI entry",
+    "undefined SDK/Arduino imports",
+    "ELF CPU/FPU attributes",
+    "relocations",
+    "RAM stub wire constants"
+  ],
+  "sdk_versions": {
+    "esp32": "3.3.12",
+    "stm32": "3.0.0",
+    "rp2040": "6.0.0",
+    "extra-s3": "2.0.17"
+  }
+}

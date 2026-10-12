@@ -1,0 +1,33 @@
+{
+  "target": "esp32c6",
+  "version": "ESPFLASH-DEMO/1.0.0",
+  "idf": "5.5.5",
+  "uart_baud": 115200,
+  "uart_tx": 16,
+  "uart_rx": 17,
+  "led_gpio": 7,
+  "files": [
+    {
+      "offset": 0,
+      "file": "bootloader.bin",
+      "bytes": 14320,
+      "sha256": "6f64c886aa90967f45f0cfa5f240476f59853f4f2f2a701a2c6150f24e6e09e2",
+      "md5": "02dbd8f16757e33aae63038a017e3a53"
+    },
+    {
+      "offset": 65536,
+      "file": "esp_flasher_demo.bin",
+      "bytes": 138320,
+      "sha256": "08fbdf539e5f9fcd906b4e466d83e4ff26f7b3c315347dc0a8ab6bbcc472d44b",
+      "md5": "ee8bb46fa909eccf53db4f62c37f69e1"
+    },
+    {
+      "offset": 32768,
+      "file": "partition-table.bin",
+      "bytes": 3072,
+      "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820",
+      "md5": "5d61d196adc3dba01928f264eb169be7"
+    }
+  ],
+  "hardware_tested": false
+}

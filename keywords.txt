@@ -1,0 +1,17 @@
+EspISPClass	KEYWORD1
+EspISPConfig	KEYWORD1
+isp_target_chip_t	KEYWORD1
+isp_error_t	KEYWORD1
+EspISP	KEYWORD2
+begin	KEYWORD2
+end	KEYWORD2
+enterBootloader	KEYWORD2
+connect	KEYWORD2
+flashBuffer	KEYWORD2
+flashPROGMEM	KEYWORD2
+flashStream	KEYWORD2
+verifyMD5	KEYWORD2
+verifyMD5Hex	KEYWORD2
+resetTarget	KEYWORD2
+onProgress	KEYWORD2
+getLastError	KEYWORD2

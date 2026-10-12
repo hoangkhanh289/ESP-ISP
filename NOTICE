@@ -1,0 +1,23 @@
+ESP-ISP 1.0.0 binary distribution
+Maintainer: Hoang Khanh <https://github.com/hoangkhanh289/ESP-ISP>
+Derived from esp-serial-flasher 2.1.0, Espressif Systems (Shanghai) CO LTD.
+Upstream: https://github.com/espressif/esp-serial-flasher
+Original SPDX notices are preserved in all imported files.
+
+Modifications: Arduino relative include/configuration/linkage adaptation;
+master UART and GPIO ports; C++ wrapper; demo firmware, examples and validation tools.
+The original source checkout remains unchanged.
+
+Bundled flasher stubs: esp-flasher-stub v1.3.0, Apache-2.0 OR MIT.
+https://github.com/espressif/esp-flasher-stub/releases/tag/v1.3.0
+This distribution uses the Apache-2.0 licensing option for the bundled stubs.
+
+MD5 implementation: copyright 2003-2005 Jouni Malinen; BSD notice retained in
+md5_hash.c/md5_hash.h. The embedded MD5 implementation also retains Colin Plumb's
+1993 public-domain notice. See original file comments for attribution.
+
+ESP-ISP 1.0.0 modifications: public opaque facade/C-ABI, binary ABI profiles, symbol/section hardening, Arduino packaging and bilingual documentation.
+The distributed core source is omitted; upstream licenses and attribution remain applicable.
+
+MD5 attribution and redistribution terms are reproduced in docs/THIRD_PARTY_NOTICES.md
+and docs/MD5_BSD_LICENSE.txt; firmware component licenses are in firmware/licenses/.

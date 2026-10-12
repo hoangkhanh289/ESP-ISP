@@ -1,0 +1,460 @@
+{
+  "date": "2026-10-12",
+  "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+  "fingerprint_scope": "library.properties/library.json plus every file under src/examples/extras; docs are excluded",
+  "arduino_cli": "1.5.1",
+  "core_versions": {
+    "esp32": "3.3.12",
+    "stm32": "3.0.0",
+    "rp2040": "6.0.0"
+  },
+  "arduino_compile": [
+    {
+      "board": "s3",
+      "fqbn": "esp32:esp32:esp32s3",
+      "example": "01_ISP_QuickStart_PROGMEM",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 238.9,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/esp32s3"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 588222 bytes (44%) of program storage space. Maximum is 1310720 bytes.",
+        "Global variables use 22168 bytes (6%) of dynamic memory, leaving 305512 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "s3",
+      "fqbn": "esp32:esp32:esp32s3",
+      "example": "02_ISP_Flash_From_LittleFS",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 375.6,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/esp32s3"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 470770 bytes (35%) of program storage space. Maximum is 1310720 bytes.",
+        "Global variables use 22328 bytes (6%) of dynamic memory, leaving 305352 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "s3",
+      "fqbn": "esp32:esp32:esp32s3",
+      "example": "03_ISP_Flash_From_SDCard",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 370.4,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/esp32s3"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 487334 bytes (37%) of program storage space. Maximum is 1310720 bytes.",
+        "Global variables use 22448 bytes (6%) of dynamic memory, leaving 305232 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "s3",
+      "fqbn": "esp32:esp32:esp32s3",
+      "example": "04_ISP_Coprocessor_Auto_Update",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 237.8,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/esp32s3"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 588490 bytes (44%) of program storage space. Maximum is 1310720 bytes.",
+        "Global variables use 22168 bytes (6%) of dynamic memory, leaving 305512 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "s3",
+      "fqbn": "esp32:esp32:esp32s3",
+      "example": "05_ISP_Hardware_Wiring_Diagnostic",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 254.9,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/esp32s3"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 432386 bytes (32%) of program storage space. Maximum is 1310720 bytes.",
+        "Global variables use 22168 bytes (6%) of dynamic memory, leaving 305512 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "stm32f4",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F446RE",
+      "example": "01_ISP_QuickStart_PROGMEM",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 134.5,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m4"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 299596 bytes (57%) of program storage space. Maximum is 524288 bytes.",
+        "Global variables use 1636 bytes (1%) of dynamic memory, leaving 129436 bytes for local variables. Maximum is 131072 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "stm32f4",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F446RE",
+      "example": "02_ISP_Flash_From_LittleFS",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 141.4,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m4"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 142628 bytes (27%) of program storage space. Maximum is 524288 bytes.",
+        "Global variables use 1636 bytes (1%) of dynamic memory, leaving 129436 bytes for local variables. Maximum is 131072 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "stm32f4",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F446RE",
+      "example": "03_ISP_Flash_From_SDCard",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 129.3,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m4"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 142332 bytes (27%) of program storage space. Maximum is 524288 bytes.",
+        "Global variables use 1356 bytes (1%) of dynamic memory, leaving 129716 bytes for local variables. Maximum is 131072 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "stm32f4",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F446RE",
+      "example": "04_ISP_Coprocessor_Auto_Update",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 117.7,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m4"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 299912 bytes (57%) of program storage space. Maximum is 524288 bytes.",
+        "Global variables use 1636 bytes (1%) of dynamic memory, leaving 129436 bytes for local variables. Maximum is 131072 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "stm32f4",
+      "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F446RE",
+      "example": "05_ISP_Hardware_Wiring_Diagnostic",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 115.9,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m4"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 143884 bytes (27%) of program storage space. Maximum is 524288 bytes.",
+        "Global variables use 1636 bytes (1%) of dynamic memory, leaving 129436 bytes for local variables. Maximum is 131072 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "pico",
+      "fqbn": "rp2040:rp2040:rpipico",
+      "example": "01_ISP_QuickStart_PROGMEM",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 148.7,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m0plus"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 340392 bytes (16%) of program storage space. Maximum is 2093056 bytes.",
+        "Global variables use 9252 bytes (3%) of dynamic memory, leaving 252892 bytes for local variables. Maximum is 262144 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "pico",
+      "fqbn": "rp2040:rp2040:rpipico",
+      "example": "02_ISP_Flash_From_LittleFS",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 183.9,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m0plus"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 211636 bytes (10%) of program storage space. Maximum is 2093056 bytes.",
+        "Global variables use 9544 bytes (3%) of dynamic memory, leaving 252600 bytes for local variables. Maximum is 262144 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "pico",
+      "fqbn": "rp2040:rp2040:rpipico",
+      "example": "03_ISP_Flash_From_SDCard",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 445.5,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m0plus"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 230344 bytes (11%) of program storage space. Maximum is 2093056 bytes.",
+        "Global variables use 11260 bytes (4%) of dynamic memory, leaving 250884 bytes for local variables. Maximum is 262144 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "pico",
+      "fqbn": "rp2040:rp2040:rpipico",
+      "example": "04_ISP_Coprocessor_Auto_Update",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 219.3,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m0plus"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 340696 bytes (16%) of program storage space. Maximum is 2093056 bytes.",
+        "Global variables use 9252 bytes (3%) of dynamic memory, leaving 252892 bytes for local variables. Maximum is 262144 bytes."
+      ],
+      "hardware_tested": false
+    },
+    {
+      "board": "pico",
+      "fqbn": "rp2040:rp2040:rpipico",
+      "example": "05_ISP_Hardware_Wiring_Diagnostic",
+      "exit_code": 0,
+      "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+      "unchanged_during_build": true,
+      "seconds": 253.0,
+      "selected_archive": [
+        "Using precompiled library in LIBRARY/src/cortex-m0plus"
+      ],
+      "linker_conflicts": [],
+      "size_report": [
+        "Sketch uses 184608 bytes (8%) of program storage space. Maximum is 2093056 bytes.",
+        "Global variables use 9252 bytes (3%) of dynamic memory, leaving 252892 bytes for local variables. Maximum is 262144 bytes."
+      ],
+      "hardware_tested": false
+    }
+  ],
+  "platformio": {
+    "exit_code": 0,
+    "payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993",
+    "results": [
+      {
+        "environment": "esp32s3",
+        "exit_code": 0,
+        "sdk_packages": [
+          "- framework-arduinoespressif32 @ 4.20017.260907+sha.dcc1105b",
+          "- tool-esptoolpy @ 2.41100.260830 (4.11.0)",
+          "- toolchain-riscv32-esp @ 8.4.0+2021r2-patch5",
+          "- toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5"
+        ],
+        "archive_selected": [
+          "ESP-ISP: selected extras/arduino-esp32-2.0.17/esp32s3/libesp_isp.a"
+        ],
+        "footprint": [
+          "RAM:   [=         ]   5.8% (used 18896 bytes from 327680 bytes)",
+          "Flash: [=         ]  12.2% (used 406153 bytes from 3342336 bytes)"
+        ],
+        "seconds": 68.91
+      },
+      {
+        "environment": "stm32f4",
+        "exit_code": 0,
+        "sdk_packages": [
+          "- framework-arduinoststm32 @ 4.30000.0 (3.0.0)",
+          "- framework-cmsis @ 2.60300.0 (6.3.0)",
+          "- framework-cmsis-dsp @ 1.16.2",
+          "- toolchain-gccarmnoneeabi @ 1.120301.0 (12.3.1)"
+        ],
+        "archive_selected": [
+          "ESP-ISP: selected src/cortex-m4/fpv4-sp-d16-hard/libesp_isp.a"
+        ],
+        "footprint": [
+          "RAM:   [          ]   1.2% (used 1636 bytes from 131072 bytes)",
+          "Flash: [===       ]  27.4% (used 143896 bytes from 524288 bytes)"
+        ],
+        "seconds": 58.23
+      },
+      {
+        "environment": "rp2040",
+        "exit_code": 0,
+        "sdk_packages": [
+          "- framework-arduinopico @ 1.60000.0 (6.0.0)",
+          "- tool-picotool-rp2040-earlephilhower @ 5.160100.260719 (16.1.0)",
+          "- tool-pioasm-rp2040-earlephilhower @ 5.160100.260719 (16.1.0)",
+          "- toolchain-rp2040-earlephilhower @ 5.160100.260719 (16.1.0)"
+        ],
+        "archive_selected": [
+          "ESP-ISP: selected src/cortex-m0plus/libesp_isp.a"
+        ],
+        "footprint": [
+          "RAM:   [          ]   3.3% (used 8696 bytes from 262144 bytes)",
+          "Flash: [=         ]   7.9% (used 164940 bytes from 2093056 bytes)"
+        ],
+        "seconds": 411.29
+      }
+    ],
+    "local_framework_override": "RP2040 uses the installed official Arduino-Pico 6.0.0 package via file://; the public CI resolves the same Git tag.",
+    "hardware_tested": false
+  },
+  "native_simulator": {
+    "exit_code": 0,
+    "distribution_sha256": "0c21dff5fad08ae7f5807044d6ff30fe2daf7d2cd6be625e8096309c15e02e58",
+    "results": [
+      "PASS: forced/inverted BOOT-EN/additional-HIGH strap pulses, independent UART ownership/timeouts/wrap, real SLIP ROM/stub negotiation, MAC/flash ID and baud.",
+      "PASS: real flash blocks/checksums/retries, PROGMEM/fragmented Stream, FF alignment padding, progress/reentrancy and multi-region MD5.",
+      "PASS: short streams, wrong chips, unknown flash capacity, MD5 corruption and overflow fail without automatic app reset."
+    ],
+    "backend": "Real SLIP/core/stub/MD5 + public facade/C-ABI, native ROM simulator",
+    "hardware_tested": false,
+    "current_payload_sha256": "79d2db81624ae7cd5dac78c5b1f5696e34ec9ba00575da466977eeb4b7a85993"
+  },
+  "arduino_lint": {
+    "version": "1.3.0",
+    "error_count": 0,
+    "warnings": [
+      {
+        "id": "LS008",
+        "description": "name-header mismatch"
+      }
+    ]
+  },
+  "workflow_syntax": {
+    "tool": "actionlint 1.7.12",
+    "exit_code": 0,
+    "files": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/release.yml"
+    ],
+    "github_execution": false
+  },
+  "upstream_preservation": {
+    "source_version": "2.1.0",
+    "files_checked": 283,
+    "hash_mismatches": 0
+  },
+  "hardware": {
+    "upload": false,
+    "slave_flash": false,
+    "logic_analyzer_timing": false,
+    "physical_md5": false
+  },
+  "release_scope": "Selected-board readiness matrix; not the separate full twelve-profile/sixty-consumer private release gate.",
+  "zip_validation": "Final ZIP CRC/contents/SHA256 are checked by package_release.py. Exact independent ZIP install/link evidence is written to dist/ZIP-VALIDATION.json after packaging.",
+  "archives": {
+    "profiles": 13,
+    "files": 13,
+    "all_hashes_verified": true,
+    "inventory": "binary-manifest.json"
+  },
+  "version_policy": {
+    "cases": [
+      {
+        "case": "esp-baseline",
+        "expected_accept": true,
+        "accepted": true,
+        "warning": false
+      },
+      {
+        "case": "esp-old-minor",
+        "expected_accept": true,
+        "accepted": true,
+        "warning": true
+      },
+      {
+        "case": "esp-next-minor",
+        "expected_accept": true,
+        "accepted": true,
+        "warning": true
+      },
+      {
+        "case": "esp-wrong-major",
+        "expected_accept": false,
+        "accepted": false,
+        "warning": false
+      },
+      {
+        "case": "esp-legacy-s3",
+        "expected_accept": true,
+        "accepted": true,
+        "warning": false
+      },
+      {
+        "case": "esp-legacy-other-patch",
+        "expected_accept": false,
+        "accepted": false,
+        "warning": false
+      },
+      {
+        "case": "pico-baseline",
+        "expected_accept": true,
+        "accepted": true,
+        "warning": false
+      },
+      {
+        "case": "pico-other-minor",
+        "expected_accept": true,
+        "accepted": true,
+        "warning": true
+      },
+      {
+        "case": "pico-wrong-major",
+        "expected_accept": false,
+        "accepted": false,
+        "warning": false
+      },
+      {
+        "case": "rp2350-rejected",
+        "expected_accept": false,
+        "accepted": false,
+        "warning": false
+      }
+    ],
+    "scope": "Actual preprocessor guards only; no claim of SDK ABI/runtime compatibility"
+  }
+}

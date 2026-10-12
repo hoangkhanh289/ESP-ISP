@@ -1,0 +1,2 @@
+# Preserve the original third-party license text, including its whitespace.
+firmware/licenses/* -text -whitespace

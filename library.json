@@ -1,0 +1,19 @@
+{
+  "name": "ESP-ISP",
+  "version": "1.0.0",
+  "description": "Universal In-System Programmer for ESP microcontrollers with a hardened precompiled binary core.",
+  "keywords": ["esp32", "flasher", "isp", "uart", "programmer", "stm32", "rp2040"],
+  "repository": {"type": "git", "url": "https://github.com/hoangkhanh289/ESP-ISP.git"},
+  "authors": [{"name": "Hoang Khanh", "url": "https://github.com/hoangkhanh289", "maintainer": true}],
+  "license": "Apache-2.0",
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32", "ststm32", "raspberrypi"],
+  "headers": ["ESP_ISP.h"],
+  "build": {
+    "srcDir": "src",
+    "includeDir": "src",
+    "srcFilter": ["+<ESP_ISP.cpp>"],
+    "extraScript": "extras/platformio.py"
+  },
+  "export": {"exclude": [".validation", "dist", ".pio", "**/__pycache__"]}
+}
